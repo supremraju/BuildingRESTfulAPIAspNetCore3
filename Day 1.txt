@@ -1,0 +1,4 @@
+Interface : I am using IEnumerable interface to retrive the complete list of products, it
+ which will itrate through a collection of specific type and returns the list. 
+
+See Details on DBContext
