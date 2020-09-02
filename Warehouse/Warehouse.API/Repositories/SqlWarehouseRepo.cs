@@ -23,5 +23,28 @@ namespace Warehouse.API.Repositories
         {
             return _context.Products.ToList();
         }
+
+
+        public void PostProduct(Product product)
+        {
+             _context.Products.Add(product);
+           
+        }
+
+        public bool saveChanges()
+        {
+            return (_context.SaveChanges() >= 0);
+        }
+
+        public void UpdateProduct(Product product)
+        {
+           // throw new NotImplementedException();
+           
+        }
+
+        public void DeleteProduct(Product product)
+        {
+             _context.Products.Remove(product);
+        }
     }
 }

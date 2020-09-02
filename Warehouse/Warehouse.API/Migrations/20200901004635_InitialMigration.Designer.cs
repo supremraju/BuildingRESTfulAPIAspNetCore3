@@ -9,7 +9,7 @@ using Warehouse.API.Repositories;
 namespace Warehouse.API.Migrations
 {
     [DbContext(typeof(WarehouseContext))]
-    [Migration("20200831032835_InitialMigration")]
+    [Migration("20200901004635_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
